@@ -19,7 +19,7 @@ A API criada visa a possibilidade de movimentações de compra entre cliente e v
 
 ## [Historias de Usuario](HistoriasDeUsuario.pdf)
 
-## [Diagrama De Classes](DiagramaDeClasse.JPG)
+## ![Diagrama De Classes](DiagramaDeClasse.JPG)
 
 ## [Casos de Teste](CasosDeTeste.pdf)
 
