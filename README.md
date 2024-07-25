@@ -17,11 +17,11 @@
 ## Introdução
 A API criada visa a possibilidade de movimentações de compra entre cliente e vendedor com todas as funcionalidades básicas necessárias à transação. Dessa forma, utilizamos do conceito CRUD (Create, Read, Update and Delete), assim as movimentações primordiais ao devido funcionamento da API junto ao banco de dados serão possíveis de maneira simples e prática do ponto de vista de desenvolvimento e legibilidade posterior do código. Utilizamos Nodejs para desenvolver a API e MongoDb como banco de dados.
 
-## [Historias de Usuario](HistoriasDeUsuario.pdf)
+## [Historias de Usuario](arquivosDocumentacao/HistoriasDeUsuario.pdf)
 
-## ![Diagrama De Classes](DiagramaDeClasse.JPG)
+## ![Diagrama De Classes](arquivosDocumentacao/DiagramaDeClasse.JPG)
 
-## [Casos de Teste](CasosDeTeste.pdf)
+## [Casos de Teste](arquivosDocumentacao/CasosDeTeste.pdf)
 
 ## Estratégia de controle de versão
 **Ferramenta Utilizada:** Git
@@ -43,4 +43,4 @@ A API criada visa a possibilidade de movimentações de compra entre cliente e v
  - Usaremos um arquivo .env para armazenar configurações específicas do ambiente local, como chaves de API e configurações de banco de dados.
 
 
-## [Endpoints](Endpoints.pdf)
+## [Endpoints](arquivosDocumentacao/Endpoints.pdf)
