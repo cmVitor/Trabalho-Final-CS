@@ -7,7 +7,9 @@
 
 ## Entrega da versão revisada do projeto
 **Instituto de Informática UFG**
+
 **Professor:** Elias batista Ferreira
+
 **Alunos:**
 - Guilherme Gonçalves Dutra de Mendonça
 - Felipe Abdiel Brito Gonçalves
