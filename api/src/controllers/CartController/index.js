@@ -46,6 +46,35 @@ const CartController = {
             return res.status(400).json(err)
         }
 
+    },
+
+    async updateCart(req, res) {
+
+        const bodyData = req.body
+        const { cart_id, user_id } = req.params
+
+        try{
+
+            const updatedCart = await Cart.findByIdAndUpdate(cart_id, bodyData, { new: true})
+            return res.status(200).json(updatedCart)
+
+        } catch(err) {
+            return res.status(400).json(err)
+        }
+
+    },
+
+    async deleteCart(req, res) {
+        const { cart_id, user_id } = req.params
+        
+        try {
+
+            const deletedCart = await Cart.findByIdAndDelete(cart_id)
+            return res.status(200).json(deletedCart)
+
+        } catch(err){
+            return res.status(400).json(err)
+        }
     }
 
 }

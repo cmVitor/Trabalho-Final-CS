@@ -30,6 +30,8 @@ routes.post('/carts/:user_id', CartController.createCart)
 routes.get('/carts/:user_id', CartController.getUserCarts)
 
 routes.get('/carts/:user_id/:cart_id', CartController.getCart)
+routes.patch('/carts/:user_id/:cart_id', CartController.updateCart)
+routes.delete('/carts/:user_id/:cart_id', CartController.deleteCart)
 
 
 module.exports = routes
